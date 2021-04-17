@@ -37,3 +37,7 @@
 **.vcxproj
 **.vcxproj.filters
 **.vcxproj.user
+
+# Binaries
+**/bin/
+bin-int/
