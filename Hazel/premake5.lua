@@ -8,6 +8,8 @@ workspace "Hazel"
 		"Dist"
 	}
 
+	startproject "Sandbox"
+
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 project "Hazel"
 	location "Hazel"
@@ -31,7 +33,7 @@ project "Hazel"
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
-		systemversion "10.0"
+		systemversion "10.0.17763.0"
 
 		defines
 		{
@@ -86,7 +88,7 @@ project "Sandbox"
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
-		systemversion "10.0"
+		systemversion "10.0.17763.0"
 
 		defines
 		{
